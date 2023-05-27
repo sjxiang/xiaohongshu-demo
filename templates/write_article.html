@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>树洞</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/water.css@2/out/water.css">
+</head>
+<body>
+    <form action="/article/new" method="post">
+    <input name="title" type="text" placeholder="标题"/>
+    <br/>
+    <textarea name="content" cols="100" rows="20" placeholder="正文"></textarea>
+    <br/>
+    <input type="submit" value="保存">
+    </form>
+
+    <br/><br/> <!-- 分割线 -->
+
+    <form action="/article/publish" method="post">
+    <input name="title" type="text" placeholder="标题"/>
+    <br/>
+    <textarea name="content" cols="100" rows="20" placeholder="正文"></textarea>
+    <br/>
+    <input type="submit" value="发表">
+    </form>
+</body>
+</html>
